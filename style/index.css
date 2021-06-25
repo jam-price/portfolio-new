@@ -1,0 +1,12 @@
+@import 'components/nav.css';
+@import 'sections/banner.css';
+@import 'sections/about.css';
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+img {
+    max-width: 200px;
+}
