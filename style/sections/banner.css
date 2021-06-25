@@ -1,3 +1,39 @@
 #banner {
-    height: 100vh;
+    height: 90vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-image img {
+    border-radius: 50%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: grayscale(1) contrast(1.3);
+}
+
+h1 {
+    font-size: 80px;
+    border-bottom: 8px solid #611263;
+}
+
+#banner-subheader {
+    text-align: right;
+}
+
+.banner-title {
+    height: 50vh;
+}
+
+.banner-socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-social {
+    font-size: 48px;
+    color: white;
+}
+
+.banner-social:hover {
+    opacity: 0.8;
 }
