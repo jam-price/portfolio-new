@@ -3,13 +3,18 @@
 }
 
 #about .section {
-    flex-wrap: wrap;
+    height: 80vh;
 }
 
 #about img {
     max-width: 30vw;
+    flex-grow: 1;
 }
 
 .about-underline {
     border-top: 10px solid #611263;
+}
+
+.about-text {
+    
 }
