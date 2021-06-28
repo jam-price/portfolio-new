@@ -1,22 +1,27 @@
-@import 'components/nav.css';
-@import 'sections/banner.css';
-@import 'sections/about.css';
-@import 'fonts.css';
+@import "components/nav.css";
+@import "sections/banner.css";
+@import "sections/about.css";
+@import "fonts.css";
 
 body {
-    background-color: #1e1e1e;
-    color: white;
+  background-color: #1e1e1e;
+  color: white;
 }
 
-h1, h2 {
-    font-family: 'Coustard', serif;
-    font-weight: 600;
+h1,
+h2 {
+  font-family: "Coustard", serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 48px;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-img {
-    max-width: 100%;
+img { 
+  max-width: 30vw;
 }

@@ -1,3 +1,15 @@
 #about {
-    height: 100vh;
+    min-height: 100vh;
+}
+
+#about .section {
+    flex-wrap: wrap;
+}
+
+#about img {
+    max-width: 30vw;
+}
+
+.about-underline {
+    border-top: 10px solid #611263;
 }
