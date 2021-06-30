@@ -10,7 +10,7 @@
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     filter: grayscale(1) contrast(1.2) brightness(.9);
-    
+    max-width: 30vw;
 }
 
 h1 {
@@ -72,4 +72,14 @@ h1 {
     55% { transform: translate(0px, -50px) rotate(180deg); }
     60% { transform: translate(0px, 0px) rotate(180deg); }
     70% { transform: translate(0px, 0px); }
+  }
+
+  @media only screen and (max-width: 900px) {
+      .banner-arrow {
+          display: none;
+      }
+
+      .banner-image img {
+        max-width: 50vw;
+      }
   }
