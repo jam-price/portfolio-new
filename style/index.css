@@ -2,6 +2,7 @@
 @import "sections/banner.css";
 @import "sections/about.css";
 @import "fonts.css";
+@import "sections/projects.css";
 
 body {
   background-color: #131313;
@@ -21,8 +22,4 @@ h2 {
 p {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
-}
-
-img { 
-  /* max-width: 30vw; */
 }

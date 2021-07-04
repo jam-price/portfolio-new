@@ -6,8 +6,8 @@
     height: 80vh;
 }
 
-#about img {
-    max-width: 30vw;
+#about-image > img{
+    max-width: 30vw !important;
     flex-grow: 1;
 }
 
